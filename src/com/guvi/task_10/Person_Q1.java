@@ -1,12 +1,12 @@
 package com.guvi.task_10;
 
-	public class Person {
+	public class Person_Q1 {
 	   
 	    private String name;
 	    private int age;
 
 	   
-	    public Person(String name, int age) {
+	    public Person_Q1(String name, int age) {
 	        this.name = name;
 	        this.age = age;
 	    }
@@ -22,7 +22,7 @@ package com.guvi.task_10;
 
 	    public static void main(String[] args) {
 
-	        Person person1 = new Person("Suresh", 29);
+	        Person_Q1 person1 = new Person_Q1("Suresh", 29);
 
 	        System.out.println("Person's name: " + person1.getName());
 	        System.out.println("Person's age: " + person1.getAge());
